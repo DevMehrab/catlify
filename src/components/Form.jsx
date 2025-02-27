@@ -4,7 +4,7 @@ export const Form = () => {
     let options = [
         {
           "name": "Gender",
-          "list": ["male", "female", "unisex"]
+          "list": ["Male", "Female", "Unisex"]
         },
         {
           "name": "Color",
