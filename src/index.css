@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gantari", serif;
+}
+
+body{
+  background-color: #ebeaf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand{
+  font-size: 25px;
+}
+.options{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.option{
+  background-color: #4d409218;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  user-select: none;
+}
+.active{
+  background-color: #705bdc;
+  color: #ebeaf3;
+}
+.container{
+  width: 100vw;
+  max-width: 600px;
+  background-color: #eae8f4;
+  padding: 10px;
+}
+
+section{
+  margin: 40px 0;
+}
+h2{
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.generate-btn{
+background-color: #705bdc;
+padding: 15px;
+font-size: 20px;
+color: #ebeaf3;
+text-align: center;
+border-radius: 10px;
+width: 100%;
+}
+
+.display{
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.display img{
+  height: 29px;
+  transform: scale(1.8);
+}
