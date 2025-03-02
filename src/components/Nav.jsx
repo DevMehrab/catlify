@@ -1,6 +1,6 @@
 
 export const Nav = () => {
   return (
-    <div className="brand">Catlify - The Best Cat Name Generator</div>
+    <div className="brand">Catlify - Cat Name Generator</div>
   )
 }
