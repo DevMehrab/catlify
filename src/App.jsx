@@ -9,8 +9,8 @@ function App() {
   <div className="container">
       <Nav />
       <GenerateBtn />
-      <Form />
       <Display/>
+      <Form />
   </div>)
 }
 
