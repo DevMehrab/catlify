@@ -11,6 +11,7 @@ function App() {
       <GenerateBtn />
       <Display/>
       <Form />
+    <center>Made by <b>Mehrab Hossain</b></center>
   </div>)
 }
 
