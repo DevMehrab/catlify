@@ -2,7 +2,7 @@ import loading from './loading.gif'
 export const GenerateBtn = (e) => {
 
     function handleClick() {
-        let prompt = localStorage.getItem('prompt') ?? 'Generate a cat name which is beautiful . give me the name only. dont send me any other extra texts. give me only and only one word and that is that cats name
+        let prompt = localStorage.getItem('prompt') || 'Generate a cat name which is beautiful . give me the name only. dont send me any other extra texts. give me only and only one word and that is that cats name
         console.log(prompt);
 
         async function generate(param) {
