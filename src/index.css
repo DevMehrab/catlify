@@ -17,6 +17,9 @@ body{
   font-size: 25px;
   margin-bottom: 20px;
 }
+center{
+  margin:12px 0;
+}
 .options{
   display: flex;
   flex-wrap: wrap;
